@@ -14,7 +14,7 @@
 # require_recipe "mbari-ruby"
 
 # uncomment to turn on thinking sphinx/ultra sphinx. Remember to edit cookbooks/sphinx/recipes/default.rb first!
-# require_recipe "sphinx"
+require_recipe "sphinx"
 
 #uncomment to turn on memcached
 # require_recipe "memcached"
@@ -60,6 +60,8 @@
 #require_recipe "eybackup_verbose"
 
 #require_recipe 'nginx'
+require_recipe 'delayed_job'
+
 
 #uncomment to include the mysql_replication_check recipe
 #require_recipe "mysql_replication_check"
