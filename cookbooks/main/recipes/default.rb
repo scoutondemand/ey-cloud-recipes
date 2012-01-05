@@ -17,7 +17,7 @@ require_recipe "mongodb"
 # require_recipe "mbari-ruby"
 
 # uncomment to turn on thinking sphinx/ultra sphinx. Remember to edit cookbooks/sphinx/recipes/default.rb first!
-require_recipe "sphinx"
+##require_recipe "sphinx"
 
 #uncomment to turn on memcached
 # require_recipe "memcached"
